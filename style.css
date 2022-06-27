@@ -105,3 +105,36 @@ a {
 .author {
     align-self: flex-end;
 }
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882f6;
+    margin: 100px;
+    padding: 50px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.part-four {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.cta-subtext {
+    color: #E5E7EB;
+}
+
+.cta-sign {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 15px;
+    border-radius: 7px;
+    border-color: #F9FAF8;
+}
