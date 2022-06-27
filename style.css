@@ -8,8 +8,8 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 100px;
+    justify-content: center;
+    padding-top: 16px;
 }
 
 ul {
@@ -26,12 +26,17 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    flex-basis: 500px;
 }
 
 .header-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin: 100px;
+}
+
+.left-side {
+    flex-basis: 500px;
 }
 
 .main-title {
