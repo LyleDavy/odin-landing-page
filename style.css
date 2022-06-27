@@ -78,7 +78,6 @@ a {
 }
 
 .quote {
-    text-align: center;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
@@ -91,5 +90,18 @@ a {
 
 .part-three {
     background-color: #E5E7EB;
-    
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.author {
+    align-self: flex-end;
 }
